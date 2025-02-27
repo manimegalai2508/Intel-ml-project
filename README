@@ -1,7 +1,7 @@
-# Project Objective:
+## Project Objective:
 - **Apply K-Means Clustering** on the Iris dataset to group flowers into distinct clusters based on their sepal length, sepal width, petal length, and petal width.
 
-# Dataset Description:
+## Dataset Description:
 - The Iris dataset contains data on 150 flowers with the following features:
   - **Sepal Length (cm)**
   - **Sepal Width (cm)**
@@ -9,7 +9,7 @@
   - **Petal Width (cm)**
 - **Species Column**: The dataset also includes a species column, which will not be used during clustering but will be used later for evaluation.
 
-# Task:
+## Task:
 
 - **Preprocessing:**
   - Handle missing values (if any).
@@ -27,7 +27,7 @@
 - **Comparison:**
   - Compare the resulting clusters with the actual species labels to evaluate the accuracy of the clustering.
 
-# Expected Outcome:
+## Expected Outcome:
 - **Cluster Identification**: Identify three distinct clusters that likely correspond to the three species of flowers.
 - **Insights**: Gain insights into how well K-Means clustering can separate species based on physical characteristics.
 - **Visualization**: Visual representation of how well the clustering algorithm separates the clusters.
