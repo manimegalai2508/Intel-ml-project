@@ -1,0 +1,21 @@
+The objective of this project is to apply K-Means Clustering on the Iris dataset to group the flowers into distinct clusters based on their sepal length, sepal width, petal length, and petal width. Since the Iris dataset contains three known species of flowers (Setosa, Versicolor, and Virginica), the goal is to determine if K-Means can successfully cluster the data into these natural groupings without using the species labels (unsupervised learning).
+
+Dataset Description:
+The Iris dataset contains the following features for 150 flowers:
+
+Sepal Length (cm)
+Sepal Width (cm)
+Petal Length (cm)
+Petal Width (cm)
+The dataset also contains a species column, which will be excluded during clustering and only used later to evaluate the quality of the clusters.
+
+Task:
+Preprocess the dataset (handle missing values if any, scale features if necessary).
+Apply K-Means Clustering to group flowers into clusters.
+Use Elbow Method or Silhouette Score to determine the optimal number of clusters (K).
+Visualize the resulting clusters using scatter plots.
+Compare the resulting clusters with the actual species labels to evaluate the accuracy of the clustering.
+Expected Outcome:
+Identification of three distinct clusters representing the three species.
+Insights into how well K-Means clustering can separate the species based on their physical characteristics.
+Visualization showing the separation of clusters.
